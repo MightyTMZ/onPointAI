@@ -1,0 +1,281 @@
+/* .title-wrap {
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+} */
+
+.target-audience-paragraph {
+  text-align: left;
+}
+
+/* Style for the #try-button */
+#try-button1 {
+  margin-right: 10px;
+  background-color: #4ef56d; /* Bright yellow to stand out */
+  color: #333;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px; /* Rounded edges */
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#try-button1:hover {
+  background-color: #b0f5bd;
+  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  border: 1.5px solid #ffff00;
+}
+
+#try-button2 {
+  margin-left: 10px;
+  background-color: #02f7e7; /* Bright yellow to stand out */
+  color: #333;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px; /* Rounded edges */
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#try-button2:hover {
+  background-color: #acfaf5;
+  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  border: 1.5px solid #ffff00;
+}
+
+.glowing-text {
+  position: relative;
+  font-size: 4.5rem;
+  text-align: center;
+  color: #8b8000;
+  animation: revealText 1.5s ease forwards, glowPulse 20s infinite;
+  opacity: 0; /* Start hidden */
+}
+
+@keyframes revealText {
+  0% {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes glowPulse {
+  0%,
+  100% {
+    text-shadow: 0 0 5px #8b8000, 0 0 15px #ffd700;
+    color: #8b8000;
+  }
+  50% {
+    text-shadow: 0 0 10px #00fffb, 0 0 25px #00fffb;
+    color: #00fffb;
+  }
+}
+
+.glowing-text:hover {
+  animation: jiggle 0.3s ease infinite;
+  text-shadow: 0 0 10px #fff700, 0 0 25px #fff;
+  transform: scale(1.1);
+}
+
+@keyframes jiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+}
+
+.landing-page-para {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  /*background-image: url("../assets/hero-background.jpg");  Replace with your image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-section .btn {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+}
+
+/* Features Section */
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.features-section i {
+  color: #0d6efd;
+}
+
+.features-section h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.features-section p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* Audience Section */
+.audience-section {
+  padding: 25px;
+}
+.audience-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.audience-section h5 {
+  font-size: 1.3rem;
+}
+
+.audience-section p {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+/* Results Section */
+.results-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results-section h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Pricing Section */
+.pricing-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  border: none;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Contact Section */
+.contact-section {
+  background: #343a40;
+  color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+.contact-section button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .features-section .row > div,
+  .pricing-section .row > div {
+    margin-bottom: 2rem;
+  }
+
+  .audience-section h5,
+  .results-section h5 {
+    font-size: 1.1rem;
+  }
+}
