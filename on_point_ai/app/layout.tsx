@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./globals.css";
+// import "./globals.css";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 {
   /*const geistSans = localFont({
@@ -42,7 +44,9 @@ export default function RootLayout({
         />
       </head>
       <body className={`antialiased`}>
+        <Navbar/>
         {children}
+        <Footer/>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>

@@ -1,10 +1,10 @@
 import "./Navbar.css";
-import "../fonts/Poppins.css";
-import OnPointAI from "../onpoint_ai-removebg-preview.png";
+import "../../fonts/Poppins.css";
+import OnPointAI from "../../onpoint_ai-removebg-preview.png";
 import Link from "next/link";
 import Image from "next/image";
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
@@ -67,4 +67,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
