@@ -4,7 +4,6 @@ import {
   ourOfferings,
   ourTargetAudience,
 } from "./LandingPageData";
-import Image from "next/image";
 
 const LandingPage = () => {
   {
