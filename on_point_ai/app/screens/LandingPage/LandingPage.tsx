@@ -4,6 +4,7 @@ import {
   ourOfferings,
   ourTargetAudience,
 } from "./LandingPageData";
+import Image from "next/image";
 
 const LandingPage = () => {
   {
@@ -295,7 +296,7 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
-        {/* Testimnonial section */}
+        {/* Testimnonial section 
 
         <section
           id="testimonials"
@@ -329,8 +330,8 @@ const LandingPage = () => {
                       marginBottom: "20px",
                     }}
                   >
-                    <img
-                      src={testimonial.image}
+                    <Image
+                      URL={testimonial.image}
                       alt={testimonial.name}
                       style={{
                         width: "80px",
@@ -339,7 +340,9 @@ const LandingPage = () => {
                         objectFit: "cover",
                         marginBottom: "20px",
                       }}
-                    />
+                      width={80}
+                      height={80}
+                    ></Image>
                     <p
                       style={{
                         fontSize: "16px",
@@ -368,32 +371,8 @@ const LandingPage = () => {
               ))}
             </div>
           </div>
-        </section>
-        {/*<section id="results" className="results-section py-5">
-          <div className="container">
-            <h2 className="text-center poppins-bold mb-4">
-              See Omniwave Nexus in Action
-            </h2>
-            <div className="row text-center">
-              <div className="col-md-6">
-                <img
-                  src="before-using.png"
-                  alt="Before Omniwave Nexus"
-                  className="img-fluid mb-4"
-                />
-                <h5>Before Using Omniwave Nexus</h5>{" "}
-              </div>
-              <div className="col-md-6">
-                <img
-                  src="after-using.png"
-                  alt="After Omniwave Nexus"
-                  className="img-fluid mb-4"
-                />
-                <h5>After Using Omniwave Nexus</h5>{" "}
-              </div>
-            </div>
-          </div>
-        </section> */}
+        </section>/*}
+        
         {/* Pricing solutions section */}
         <section id="pricing" className="pricing-section py-5 bg-light">
           <div className="container">
