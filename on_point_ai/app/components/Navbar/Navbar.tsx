@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import "../../fonts/Poppins.css";
 import OnPointAI from "../../onpoint_ai-removebg-preview.png";
+import BoostrapScripts from "./BoostrapScripts";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -63,6 +64,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <BoostrapScripts></BoostrapScripts>
     </nav>
   );
 };

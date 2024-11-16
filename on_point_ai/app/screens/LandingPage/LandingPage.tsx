@@ -1,10 +1,10 @@
 import "./LandingPage.css";
 import {
-  testimonials,
+  // testimonials,
   ourOfferings,
   ourTargetAudience,
 } from "./LandingPageData";
-import Image from "next/image";
+// import Image from "next/image";
 
 const LandingPage = () => {
   {
