@@ -121,7 +121,7 @@ const WhyOnPoint = () => {
                   <strong>Author Contributor:</strong> Contributed heavily to an
                   upcoming book on <strong><a href="https://ollama.com/">Ollama</a></strong> and prompt
                   engineering, set to release in April/May 2025. Translation? I know
-                  how to create, tweak, tune, and MAKE and  AI <strong>actually</strong> work for you!
+                  how to create, tweak, tune, and make AI <strong>actually</strong> work for you!
                 </div>
               </li>
               <li
@@ -151,7 +151,7 @@ const WhyOnPoint = () => {
                   >
                     OrbitView
                   </a>
-                  , revolutionizing networking and learning with immersive experiences and cutting-edge AI at a fraction of the cost.
+                  , revolutionizing networking, learning, communication, and personalization with immersive experiences and cutting-edge AI at a fraction of the cost.
                 </div>
               </li>
             </ul>
