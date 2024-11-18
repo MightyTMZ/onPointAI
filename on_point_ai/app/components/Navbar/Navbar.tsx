@@ -52,11 +52,7 @@ const Navbar = () => {
                 Contact Us
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#about">
-                Join for free
-              </Link>
-            </li>
+            
           </ul>
         </div>
       </div>
