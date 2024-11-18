@@ -119,7 +119,7 @@ const WhyOnPoint = () => {
                 ></i>
                 <div>
                   <strong>Author Contributor:</strong> Contributed heavily to an
-                  upcoming book on <strong>Ollama</strong> and prompt
+                  upcoming book on <strong><a href="https://ollama.com/">Ollama</a></strong> and prompt
                   engineering, set to release in Q2 2025. Translation? I know
                   how to make AI <strong>actually</strong> work for you!
                 </div>
