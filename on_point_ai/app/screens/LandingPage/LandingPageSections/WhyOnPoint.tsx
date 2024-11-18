@@ -151,7 +151,7 @@ const WhyOnPoint = () => {
                   >
                     OrbitView
                   </a>
-                  , revolutionizing networking and learning with immersive experiences and cutting-edge AI at a fraction of the cost.
+                  , revolutionizing networking, learning, communication, and personalizatiom with immersive experiences and cutting-edge AI at a fraction of the cost.
                 </div>
               </li>
             </ul>
