@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer bg-dark text-light py-5">
       <div className="container">
         <div className="row">
-          {/* Quick Links */}
+          {/* Quick Links 
           <div className="col-md-4 mb-4">
             <h5 className="poppins-bold">Quick Links</h5>
             <ul className="list-unstyled">
@@ -36,7 +36,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div>*/}
 
           {/* Contact Info */}
           <div className="col-md-4 mb-4">
@@ -44,16 +44,15 @@ const Footer = () => {
             <p>
               Email:{" "}
               <Link href="mailto:info@omniwavenexus.com" className="text-light">
-                admin@getonpointai.com
+                tom.zhang.career@hotmail.com
               </Link>
             </p>
             <p>
               Phone:{" "}
               <Link href="tel:+123456789" className="text-light">
-                +1 234 567 89
+                +1 (437) 247 6482
               </Link>
             </p>
-            <p>Address: 123 Artificial Intelligence Lane, Toronto</p>
           </div>
 
           {/* Social Media Icons */}

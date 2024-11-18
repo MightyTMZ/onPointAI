@@ -31,14 +31,10 @@ const Navbar = () => {
         {/* Navbar links */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto poppins">
+            
             <li className="nav-item">
               <Link className="nav-link" href="#features">
-                Features
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#features">
-                Our Solution
+                Our Services
               </Link>
             </li>
             <li className="nav-item">
