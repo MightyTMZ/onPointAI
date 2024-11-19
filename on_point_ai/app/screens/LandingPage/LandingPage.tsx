@@ -1,11 +1,12 @@
 import "./LandingPage.css";
 // import {
-  // testimonials,
-  // ourOfferings,
-  // ourTargetAudience,
+// testimonials,
+// ourOfferings,
+// ourTargetAudience,
 // } from "./LandingPageData";
 import PricingModel from "./LandingPageSections/PricingModel";
 import TargetAudience from "./LandingPageSections/TargetAudience";
+import Testimonials from "./LandingPageSections/Testimonials";
 import WhatWeHelp from "./LandingPageSections/WhatWeHelp";
 import WhyOnPoint from "./LandingPageSections/WhyOnPoint";
 // import Image from "next/image";
@@ -87,8 +88,9 @@ const LandingPage = () => {
           ></div>
         </section> */}
         <WhyOnPoint />
-        <TargetAudience/>
+        <TargetAudience />
         <WhatWeHelp />
+        <Testimonials />
         {/* Testimnonial section 
 
         <section
