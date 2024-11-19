@@ -1,5 +1,33 @@
+"use client";
+import Image from "next/image";
 import React from "react";
-import { testimonials } from "../LandingPageData";
+import Arash from "../TestimonialPics/arash_farahani.jpg";
+import Aurick from "../TestimonialPics/aurick_anwar_mybro.jpg";
+import Bardia from "../TestimonialPics/bardia.png";
+
+const testimonials = [
+  {
+    id: 1,
+    image: Arash,
+    text: "Tom (OnPointAI) is a sharp, up-to-date tech enthusiast, and I’m sure he has valuable knowledge to share.",
+    name: "Arash Farahani",
+    role: "COO at Calmways",
+  },
+  {
+    id: 2,
+    image: Aurick,
+    text: "I’ve taken courses before, but nothing compares to the one-on-one help I got from OnPoint AI. He is your own AI consultant on speed dial.",
+    name: "Aurick A.",
+    role: "High School Student",
+  },
+  {
+    id: 3,
+    image: Bardia,
+    text: "Thanks to OnPoint AI, I can now use AI tools like a pro. Their patient and personalized approach is exactly what I needed!",
+    name: "Bardia H.",
+    role: "High School Student",
+  },
+];
 
 const Testimonials = () => {
   return (
@@ -21,7 +49,7 @@ const Testimonials = () => {
             fontSize: "2.5rem",
           }}
         >
-          What Our Clients Say
+          What People Say
         </h2>
         <div className="row">
           {testimonials.map((testimonial) => (
@@ -36,7 +64,7 @@ const Testimonials = () => {
                 }}
               >
                 <Image
-                  URL={testimonial.image}
+                  src={testimonial.image}
                   alt={testimonial.name}
                   style={{
                     width: "80px",
@@ -47,7 +75,7 @@ const Testimonials = () => {
                   }}
                   width={80}
                   height={80}
-                ></Image>
+                />
                 <p
                   style={{
                     fontSize: "16px",

@@ -94,15 +94,14 @@ export const pricingPlans = [
   },
 ];
 
-
 // testimonialsData.js
 export const testimonials = [
   {
     id: 1,
-    image: "client1-photo.jpg",
-    text: "OnPoint AI completely transformed how I run my business. Their personal guidance made integrating AI tools effortless and incredibly effective!",
-    name: "Sarah K.",
-    role: "Small Business Owner",
+    image: "/arash_farahani",
+    text: "Tom (OnPointAI) is a sharp, up-to-date tech enthusiast, and I’m sure he has valuable knowledge to share.",
+    name: "Arash F.",
+    role: "COO at Calmways",
   },
   {
     id: 2,
@@ -119,4 +118,3 @@ export const testimonials = [
     role: "Marketing Manager",
   },
 ];
-
